@@ -1,0 +1,12 @@
+inference
+opencv-python
+numpy
+streamlit
+ultralytics
+torch
+torchvision
+pillow
+matplotlib
+scikit-learn
+tqdm
+roboflow

@@ -1,0 +1,22 @@
+# =========================
+# Python
+# =========================
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+
+# Datasets & outputs
+dataset/
+data/
+runs/
+*.pt
+
+# OS / editor
+.vscode/
+.DS_Store
