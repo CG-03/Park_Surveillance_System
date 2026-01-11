@@ -30,59 +30,6 @@ The system is built as part of an academic AI project and demonstrates real-time
 
 ---
 
-## 📁 Project Structure
-Park_Surveillance_System/
-│
-├── data/
-│   ├── raw_videos/                # Original input videos (NOT on GitHub)
-│   │   ├── walking/
-│   │   │   
-│   │   ├── running/
-│   │   ├── cycling/
-│   │   └── unauthorized/
-│   │
-│   ├── frames/                    # Extracted frames (auto-generated)
-│   │   ├── walking/
-│   │   │   
-│   │   ├── running/
-│   │   ├── cycling/
-│   │   └── unauthorized/
-│   │
-│   └── annotated/                 # Roboflow dataset (LOCAL ONLY)
-│       ├── train/
-│       │   ├── images/
-│       │   └── labels/
-│       ├── valid/
-│       │   ├── images/
-│       │   └── labels/
-│       ├── test/
-│       │   ├── images/
-│       │   └── labels/
-│       └── data.yaml
-│
-├── models/                        # Trained YOLO models (optional)
-│   └── best.pt
-│
-├── runs/                          # YOLO training outputs (auto)
-│
-├── src/                           # Core Python logic
-│   ├── annotate.py
-│   ├── preprocess.py
-│   ├── utils.py
-│
-├── app/
-│   └── streamlit_app.py           # Streamlit dashboard
-│
-├── run_surveillance.py            # InferencePipeline execution (MAIN)
-│
-├── yolov8n.pt                     # Base YOLO model
-│
-├── requirements.txt
-├── README.md
-├── README_dataset.md              # Dataset explanation (optional)
-├── .gitignore
-└── venv/                          # Virtual environment (NOT on GitHub)
-
 ## 🚧 Project Status
 This project is currently under active development.
 
