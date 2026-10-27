@@ -1,22 +1,36 @@
-# =========================
-# Python
-# =========================
+```gitignore
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
 
-# Virtual environment
+# Virtual environments and secrets
 venv/
+.venv/
 .env
+.streamlit/secrets.toml
 
-# Datasets & outputs
-dataset/
-data/
-runs/
-*.pt
-
-# OS / editor
+# IDE and OS
 .vscode/
 .DS_Store
+
+# Generated videos and outputs
+*.mp4
+runs/
+outputs/
+uploads/
+
+# Local data
+data/
+
+# Training datasets
+dataset/test_datasetm/
+dataset/train_datasetm/
+dataset/valid_datasetm/
+dataset/README.datasetm.txt
+dataset/README.roboflow_datasetm.txt
+
+# Model training checkpoints
+runs/detect/train16/weights/
+```
+
+datasetm/
